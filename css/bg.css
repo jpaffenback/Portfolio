@@ -1,0 +1,48 @@
+/* 
+/* 
+	Section Background (bg.css)
+	
+	Table of Content
+	- general settings for section & subheader
+	- background settings for section
+	- media query
+
+*/
+
+
+#section-hero-3 {background:url(../images/background/dogslate.jpg) fixed;}
+#section-experiences.index-4 {background:url(../images/background/reef.jpg) fixed;}
+#section-testimonial.index-4 {background:url(../images/background/bordercollieBW.jpg) fixed;}
+
+
+
+
+
+/* media query */
+@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait){
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	#subheader{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}
